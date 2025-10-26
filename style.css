@@ -1,41 +1,20 @@
-Custom styles
+body {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+}
 
-    body {
-      background-color: #fff;
-      font-family: "Helvetica Neue", Arial, sans-serif;
-    }
+.intro-section {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
 
-    .intro-section {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-    }
-
-    .btn-featured {
-      background-color: #0d6efd;
-      color: #fff;
-      border: none;
-    }
-
-    .btn-featured:hover {
-      background-color: #0b5ed7;
-    }
-
-    .image-box {
-      background-color: #e9ecef;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 250px;
-      border-radius: 8px;
-    }
-
-    .btn-success, .btn-outline-dark {
-    border-radius: 0 !important;
+.btn-success,
+.btn-outline-dark {
+  border-radius: 0 !important;
 }
 
 
-/* Featured Section */
 .featured-section {
   background-color: #f8fdfb;
 }
@@ -46,4 +25,8 @@ Custom styles
 .featured-section .btn {
   border-radius: 0;
   padding: 6px 14px;
+}
+
+.text-success {
+  margin-top: 12px !important;
 }
