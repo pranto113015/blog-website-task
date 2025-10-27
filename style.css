@@ -12,10 +12,7 @@ body {
   align-items: center;
 }
 
-.btn-success,
-.btn-outline-dark {
-  border-radius: 0 !important;
-}
+
 
 
 .featured-section {
@@ -26,7 +23,7 @@ body {
   font-weight: 700;
 }
 .featured-section .btn {
-  border-radius: 0;
+
   padding: 6px 14px;
 }
 
