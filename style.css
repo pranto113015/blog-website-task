@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 body {
   background-color: white;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", "sans-serif" !important;
 }
 
 .intro-section {
@@ -29,4 +32,5 @@ body {
 
 .text-success {
   margin-top: 12px !important;
+  font-size: 35px !important;
 }
